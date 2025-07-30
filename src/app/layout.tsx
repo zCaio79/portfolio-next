@@ -2,8 +2,11 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Caio Port |",
-  description: "My personal Portifolio buil in NextJS",
+  title: "Caio Mendes",
+  description: "My personal Portfólio builded on NextJS",
+  icons: {
+    icon: '/icon.ico',
+  }
 };
 
 export default function RootLayout({
@@ -14,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className="font-outfit"
+        className="font-outfit bg-zinc-900"
       >
         {children}
       </body>
