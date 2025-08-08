@@ -7,7 +7,7 @@ type AboutProps = {
 
 export default function About(props : AboutProps){
     return(
-        <section id={props.id} className="flex flex-col justify-center w-full h-[50vh] md:h-[80vh] md:justify-center items-center gap-6 py-6 px-6">
+        <section id={props.id} className="flex flex-col justify-center w-full h-[65vh] md:h-[80vh] md:justify-center items-center gap-6 py-6 px-6">
 
         <div className="flex flex-col justify-center w-[70vw] md:w-[55vw] gap-4 h-fit md:h-[54vh] md:min-h-fit border-2 border-zinc-700 py-6 md:px-12 transition-all duration-500 hover:w-[60vw] hover:shadow-2xl hover:rounded">
 
