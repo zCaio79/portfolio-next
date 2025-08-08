@@ -55,7 +55,7 @@ export default function Projects(props : ProjectProps){
           <div className="flex flex-col justify-center items-center w-full flex-wrap gap-4">
             <Image
               className="flex rounded"
-              src="/portfolio.png"
+              src="/portfolio.PNG"
               width={550} height={300}
               alt="portfólio" />
             <span className="flex self-center md:w-[37vw] w-full bg-zinc-800 rounded py-3 px-4 font-light text-zinc-100 text-justify">Portfólio desenvolvido com Next.js e Tailwind CSS, focado em design minimalista, performance e responsividade. Apresenta projetos e habilidades de forma clara, com animações sutis e estrutura otimizada para destacar o trabalho. Combina estética moderna com código limpo e eficiente.</span>
