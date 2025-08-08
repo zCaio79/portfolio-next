@@ -1,4 +1,4 @@
-import { ArrowDown } from "lucide-react";
+import { Rabbit } from "lucide-react";
 import Image from "next/image";
 
 type AboutProps = {
@@ -7,19 +7,17 @@ type AboutProps = {
 
 export default function About(props : AboutProps){
     return(
-        <section id={props.id} className="flex flex-col w-full h-[80vh] md:h-[70vh] justify-center items-center gap-6 pb-6 px-6">
+        <section id={props.id} className="flex flex-col justify-center w-full h-[50vh] md:h-[80vh] md:justify-center items-center gap-6 py-6 px-6">
 
-        <ArrowDown className="size-5 mt-2 text-zinc-600"/>
+        <div className="flex flex-col justify-center w-[70vw] md:w-[55vw] gap-4 h-fit md:h-[54vh] border-2 border-zinc-700 py-6 md:px-12 transition-all duration-500 hover:w-[60vw] hover:shadow-2xl hover:rounded">
 
-        <div className="flex flex-col justify-center w-[70vw] md:w-[55vw] gap-4 h-fit md:h-[50vh] border-2 border-zinc-700 py-6 md:px-12 transition-all duration-500 hover:w-[80vw] hover:shadow-2xl hover:rounded">
-
-          <span className="flex w-fit text-zinc-50 font-semibold text-4xl border-b-2 border-zinc-700 pb-3 px-6 md:pr-3 md:pl-0 transition-all duration-500 hover:text-5xl">Sobre Min</span>
+          <span className="flex w-fit gap-6 items-center text-zinc-50 font-semibold text-5xl border-b-2 border-zinc-700 pb-3 px-6 md:pr-3 md:pl-0 transition-all duration-500 hover:text-6xl">Sobre Mim <Rabbit className="hidden md:flex size-10"/></span>
           <span className="flex flex-col md:flex-row justify-between items-center gap-6 py-6 px-2 text-sm md:text-base text-zinc-300 border-y-2 border-zinc-700">
-            <span className="flex md:w-[28vw] text-justify px-6 md:px-0">
+            <span className="flex md:w-[29vw] text-justify rounded py-3 px-2 md:px-6 md:py-4 bg-zinc-800">
               Sou desenvolvedor front-end e trabalho transformando ideias em interfaces modernas, funcionais e responsivas. Gosto de unir design e código para criar experiências visuais que fazem sentido tanto para quem usa quanto para quem idealiza. Acredito que um bom site vai além da aparência, ele precisa ser leve, intuitivo e acessível em qualquer dispositivo.
             </span>
             <Image
-              className="border-4 md:ml-auto border-zinc-100 "
+              className="hidden md:flex border-4 md:ml-auto border-zinc-100 "
               src="/caio.jpeg"
               width={200} height={200}
               alt="caio"

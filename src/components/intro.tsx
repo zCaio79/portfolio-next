@@ -1,6 +1,6 @@
 'use client'
 
-import { CodeXml, Heart } from "lucide-react";
+import { CodeXml, Heart, Star } from "lucide-react";
 import Image from "next/image";
 import { useState } from "react";
 
@@ -38,14 +38,14 @@ export default function Intro(props: IntroProps) {
           <CodeXml className="size-6" />
         </span>
 
-        <span className="hidden md:flex text-center w-fit justify-center gap-1.5 font-light py-2 px-2 md:px-4 rounded-sm bg-zinc-700 text-zinc-50">
+        <span className="hidden md:flex text-center w-fit justify-center gap-1.5 font-light py-2 px-2 md:px-4 rounded-sm bg-zinc-800 text-zinc-50">
           Tornando a sua ideia em uma <span className="font-medium">experiência visual</span>
         </span>
 
         {!liked ? 
-        <button type="button" onClick={() => setLiked(true)}><Heart className="size-5 text-zinc-700 hover:text-zinc-400 cursor-pointer" /></button> 
+        <button type="button" onClick={() => setLiked(true)}><Star className="size-5 text-zinc-700 hover:text-zinc-400 cursor-pointer" /></button> 
         : 
-        <button type="button" onClick={() => setLiked(false)}><Heart className="size-5 text-red-400 cursor-pointer animate-[ping_1.5s_linear_1]" /></button>
+        <button type="button" onClick={() => setLiked(false)}><Star className="size-5 text-amber-400 cursor-pointer animate-[ping_1.5s_linear_1]" /></button>
         }
 
       </div>

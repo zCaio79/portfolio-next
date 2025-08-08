@@ -3,6 +3,7 @@ import { Github, Magnet, Rat, Wifi, Zap } from "lucide-react";
 import Link from "next/link";
 import Intro from "@/components/intro";
 import About from "@/components/about";
+import Projects from "@/components/projects";
 
 
 export default function Home() {
@@ -17,8 +18,7 @@ export default function Home() {
 
         <nav className="hidden md:flex text-zinc-200 gap-2 items-center">
           <a href="#sobre" className="py-1.5 px-2 transition-all duration-150 hover:bg-zinc-800 rounded-sm">Sobre</a>
-          <a href="" className="py-1.5 px-2 transition-all duration-150 hover:bg-zinc-800 rounded-sm">Projetos</a>
-          <a href="" className="py-1.5 px-2 transition-all duration-150 hover:bg-zinc-800 rounded-sm">Contato</a>
+          <a href="#projetos" className="py-1.5 px-2 transition-all duration-150 hover:bg-zinc-800 rounded-sm">Projetos</a>
         </nav>
 
       </header>
@@ -34,7 +34,9 @@ export default function Home() {
         </div>
       </div>
 
-      <About id="sobre"/>
+      <About id="sobre" />
+
+      <Projects id="projetos"/>
 
       <footer className="flex bg-zinc-900 w-full items-center justify-center py-2 border-t-2 text-zinc-500 text-sm border-zinc-700 mt-auto">
         <Link href={"https://github.com/zCaio79"} target="_blank" className="flex gap-2 items-center transition-all duration-300 hover:text-zinc-300">
