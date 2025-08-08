@@ -9,7 +9,7 @@ export default function About(props : AboutProps){
     return(
         <section id={props.id} className="flex flex-col justify-center w-full h-[50vh] md:h-[80vh] md:justify-center items-center gap-6 py-6 px-6">
 
-        <div className="flex flex-col justify-center w-[70vw] md:w-[55vw] gap-4 h-fit md:h-[54vh] border-2 border-zinc-700 py-6 md:px-12 transition-all duration-500 hover:w-[60vw] hover:shadow-2xl hover:rounded">
+        <div className="flex flex-col justify-center w-[70vw] md:w-[55vw] gap-4 h-fit md:h-[54vh] md:min-h-fit border-2 border-zinc-700 py-6 md:px-12 transition-all duration-500 hover:w-[60vw] hover:shadow-2xl hover:rounded">
 
           <span className="flex w-fit gap-6 items-center text-zinc-50 font-semibold text-5xl border-b-2 border-zinc-700 pb-3 px-6 md:pr-3 md:pl-0 transition-all duration-500 hover:text-6xl">Sobre Mim <Rabbit className="hidden md:flex size-10"/></span>
           <span className="flex flex-col md:flex-row justify-between items-center gap-6 py-6 px-2 text-sm md:text-base text-zinc-300 border-y-2 border-zinc-700">

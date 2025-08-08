@@ -14,7 +14,7 @@ export default function Projects(props : ProjectProps){
           <Waypoints className="hidden md:flex size-10" />
         </span>
         
-        <div className="flex mb-2 flex-col gap-6 py-4 pt-6 px-6 w-[90vw] md:w-[85vw] md:h-[79vh] h-fit border-2 border-zinc-700 transition-all duration-500 rounded-md">
+        <div className="flex md:min-h-fit mb-2 flex-col gap-6 py-4 pt-6 px-6 w-[90vw] md:w-[85vw] md:h-[79vh] h-fit border-2 border-zinc-700 transition-all duration-500 rounded-md">
           <span className="flex h-fit pb-2 flex-col w-full gap-2 border-b-2 border-zinc-700">
             <span className="text-3xl font-medium text-zinc-200 transition-all duration-500 hover:text-4xl">Dengue Zero</span>
             <Link href={"https://github.com/zCaio79/Dengue-Nextjs"} className="flex text-zinc-400 items-center font-medium gap-2 hover:text-zinc-300">dengue-zero.github.com <Link2 className="size-4" /></Link>
@@ -29,8 +29,8 @@ export default function Projects(props : ProjectProps){
             <span className="flex self-center md:w-[37vw] w-full bg-zinc-800 rounded py-3 px-4 font-light text-zinc-100 text-justify">Dengue Zero é um sistema voltado à conscientização e combate ao mosquito transmissor da dengue. Permite o registro de focos, acompanhamento de casos e acesso a informações úteis. A plataforma busca unir comunidade e autoridades para prevenir surtos e reduzir os riscos da doença.</span>
           </div>
         </div>
-        <div className="flex w-full md:w-[85vw] gap-8 justify-center md:justify-between flex-wrap mb-2">
-        <div className="flex flex-col gap-6 py-4 pt-6 px-6 w-[90vw] md:w-[40vw] md:h-[78vh] h-fit border-2 border-zinc-700 transition-all duration-500 rounded-md">
+        <div className="flex  w-full md:w-[85vw] gap-8 justify-center md:justify-between flex-wrap mb-2">
+        <div className="flex md:min-h-fit flex-col gap-6 py-4 pt-6 px-6 w-[90vw] md:w-[40vw] md:h-[78vh] h-fit border-2 border-zinc-700 transition-all duration-500 rounded-md">
           <span className="flex h-fit pb-2 flex-col w-full gap-2 border-b-2 border-zinc-700">
             <span className="text-3xl font-medium text-zinc-200 transition-all duration-500 hover:text-4xl">Opina Univale</span>
             <Link href={"https://github.com/zCaio79/univale-next.git"} className="flex text-zinc-400 items-center font-medium gap-2 hover:text-zinc-300">opina-univale.github.com <Link2 className="size-4" /></Link>
@@ -46,7 +46,7 @@ export default function Projects(props : ProjectProps){
           </div>
         </div>
 
-        <div className="flex flex-col gap-6 py-4 pt-6 px-6 w-[90vw] md:w-[40vw] md:h-[78vh] h-fit border-2 border-zinc-700 transition-all duration-500 rounded-md">
+        <div className="flex md:min-h-fit flex-col gap-6 py-4 pt-6 px-6 w-[90vw] md:w-[40vw] md:h-[78vh] h-fit border-2 border-zinc-700 transition-all duration-500 rounded-md">
           <span className="flex h-fit pb-2 flex-col w-full gap-2 border-b-2 border-zinc-700">
             <span className="text-3xl font-medium text-zinc-200 transition-all duration-500 hover:text-4xl">Este Portfólio</span>
             <Link href={"https://github.com/zCaio79/portfolio-next.git"} className="flex text-zinc-400 items-center font-medium gap-2 hover:text-zinc-300">my-portfolio.github.com <Link2 className="size-4" /></Link>
