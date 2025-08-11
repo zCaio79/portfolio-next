@@ -17,8 +17,8 @@ export default function About(props : AboutProps){
               Sou desenvolvedor front-end e trabalho transformando ideias em interfaces modernas, funcionais e responsivas. Gosto de unir design e código para criar experiências visuais que fazem sentido tanto para quem usa quanto para quem idealiza. Acredito que um bom site vai além da aparência, ele precisa ser leve, intuitivo e acessível em qualquer dispositivo.
             </span>
             <Image
-              className="hidden md:flex border-4 md:ml-auto border-zinc-100 "
-              src="/caio.jpeg"
+              className="hidden saturate-0 md:flex border-4 md:ml-auto border-zinc-100 transition-all duration-500 hover:saturate-[80%]"
+              src="/caio01.jpg"
               width={200} height={200}
               alt="caio"
             />

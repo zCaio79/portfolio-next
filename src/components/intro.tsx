@@ -23,9 +23,9 @@ export default function Intro(props: IntroProps) {
         </span>
 
         <Image
-          className=" rounded-bl-full rounded-tr-full rounded-tl-full border-4 border-zinc-100 transition-all duration-500 hover:rounded-t-4xl hover:rounded-br-full"
-          src="/caio.jpeg"
-          width={180} height={180}
+          className="rounded-bl-full rounded-tr-full rounded-tl-full border-4 border-zinc-100 transition-all duration-500 hover:rounded-t-4xl hover:rounded-br-full"
+          src="/pc03.jpg"
+          width={180} height={140}
           alt="caio"
         />
       </div>
